@@ -1,32 +1,78 @@
-# LLM Skills Sample
+# 🧠 LLM Skills Sample Project
  
-## 📌 Skill: Client Follow-up Email Generator
- 
-This skill generates professional follow-up emails based on meeting details.
+This repository contains a collection of custom LLM (Large Language Model) skills designed using YAML configurations and prompt templates. These skills demonstrate how AI agents can perform different real-world tasks.
  
 ---
  
-## 🧠 Inputs
-- **client_name** – Name of the client
-- **meeting_summary** – Summary of discussion
-- **action_items** – Next steps
+## 📌 Included Skills
  
----
+### 1. 📧 Client Follow-up Email Skill
+Generates professional follow-up emails based on meeting discussions.
  
-## 📤 Output
-- A well-structured professional email
- 
----
- 
-## ✅ Example
- 
-**Input:**
-- Client Name: Arun 
-- Meeting Summary: Discussed onboarding 
-- Action Items: Send documents 
+**Inputs:**
+- client_name
+- meeting_summary
+- action_items
  
 **Output:**
-Subject: Follow-up on Onboarding Discussion 
+- Structured business email
  
-Dear Arun, 
-Thank you for your time... 
+---
+ 
+### 2. 📄 Resume Screening Skill
+Analyzes resumes and extracts key candidate details.
+ 
+**Inputs:**
+- resume_text
+ 
+**Output:**
+- Candidate summary (skills, experience, education)
+ 
+---
+ 
+### 3. 📝 Meeting Summary Skill
+Converts raw meeting notes into structured summaries.
+ 
+**Inputs:**
+- meeting_notes
+ 
+**Output:**
+- Key points, decisions, action items
+ 
+---
+ 
+### 4. 🐞 Bug Report Analyzer
+Analyzes bug descriptions and suggests fixes.
+ 
+**Inputs:**
+- bug_description
+ 
+**Output:**
+- Cause, severity, suggested fix
+ 
+---
+ 
+## ⚙️ Tech Used
+- YAML (Skill configuration)
+- Prompt Engineering
+- GitHub for version control
+ 
+---
+ 
+## 🎯 Purpose
+This project demonstrates:
+- Building modular AI skills
+- Structuring prompts for automation
+- Designing reusable AI workflows
+ 
+---
+ 
+## 🚀 How It Works
+Each skill includes:
+- A YAML file → defines inputs & outputs
+- A prompt file → contains instructions for AI
+ 
+---
+ 
+## ✅ Author
+Jasmin Kumari
