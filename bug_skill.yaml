@@ -1,0 +1,15 @@
+name: bug_report_analyzer
+description: Analyzes bug reports and suggests fixes
+version: 1.0
+ 
+inputs:
+  bug_description:
+    type: string
+ 
+outputs:
+  analysis:
+    type: string
+ 
+execution:
+  type: prompt
+  prompt_file: bug_prompt.txt
