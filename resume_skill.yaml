@@ -1,0 +1,15 @@
+name: resume_screening_skill
+description: Screens resumes and extracts key candidate details
+version: 1.0
+ 
+inputs:
+  resume_text:
+    type: string
+ 
+outputs:
+  summary:
+    type: string
+ 
+execution:
+  type: prompt
+  prompt_file: resume_prompt.txt
