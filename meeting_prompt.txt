@@ -1,0 +1,11 @@
+You are a helpful assistant.
+ 
+Convert the meeting notes into:
+- Key discussion points
+- Decisions made
+- Action items
+ 
+Meeting Notes:
+{{meeting_notes}}
+ 
+Keep it concise and structured.
