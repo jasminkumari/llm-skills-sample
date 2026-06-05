@@ -1,0 +1,15 @@
+name: meeting_summary_skill
+description: Converts meeting notes into structured summary
+version: 1.0
+ 
+inputs:
+  meeting_notes:
+    type: string
+ 
+outputs:
+  summary:
+    type: string
+ 
+execution:
+  type: prompt
+  prompt_file: meeting_prompt.txt
