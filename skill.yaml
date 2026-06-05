@@ -1,0 +1,19 @@
+name: client_followup_email_skill
+description: Generates professional follow-up emails for clients based on context
+version: 1.0
+ 
+inputs:
+  client_name:
+    type: string
+  meeting_summary:
+    type: string
+  action_items:
+    type: string
+ 
+outputs:
+  email:
+    type: string
+ 
+execution:
+  type: prompt
+  prompt_file: prompt.txt

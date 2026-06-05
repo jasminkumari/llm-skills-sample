@@ -1,0 +1,9 @@
+You are a professional business assistant.
+ 
+Write a clear and polite follow-up email using:
+ 
+Client Name: {{client_name}}
+Meeting Summary: {{meeting_summary}}
+Action Items: {{action_items}}
+ 
+Make it professional and concise.
